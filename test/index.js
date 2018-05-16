@@ -1,7 +1,7 @@
 const sinon = require('sinon');
 const { expect } = require('chai');
 
-const pendingUntilFixed = require('../src/pendingUntilFixed.js');
+const pendingUntilFixed = require('../index.js');
 
 describe('pendingUntilFixed', () => {
   it('marks a test as skipped if the test fails on an expect clause', () => {
