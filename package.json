@@ -1,0 +1,29 @@
+{
+  "name": "mocha-pending-until-fixed",
+  "version": "0.0.1",
+  "description": "Marks a mocha test as \"pending until fixed\", which skips if the test fails, but throws if the test succeeds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbstilson/mocha-pending-until-fixed.git"
+  },
+  "keywords": [
+    "mocha",
+    "javascript",
+    "testing"
+  ],
+  "author": "Brandon Stilson <bbstilson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bbstilson/mocha-pending-until-fixed/issues"
+  },
+  "homepage": "https://github.com/bbstilson/mocha-pending-until-fixed#readme",
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "5.1.1",
+    "sinon": "5.0.7"
+  }
+}
