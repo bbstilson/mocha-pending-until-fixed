@@ -1,6 +1,6 @@
 {
   "name": "mocha-pending-until-fixed",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Marks a mocha test as \"pending until fixed\", which skips if the test fails, but throws if the test succeeds.",
   "main": "index.js",
   "scripts": {
